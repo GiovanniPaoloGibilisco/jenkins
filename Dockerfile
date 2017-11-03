@@ -6,8 +6,7 @@ RUN apt-get update && apt-get install -y \
     virtualenv \
     libblas-dev \
     liblapack-dev \
-    libfreetype6-dev \
-    libpng12-dev
+    libfreetype6-dev 
     
 
 USER jenkins
